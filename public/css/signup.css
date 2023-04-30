@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:wght@300&family=Sedgwick+Ave+Display&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/jollof.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navButton, .btn-secondary {
+   
+    background-color: transparent;
+    border-color: gold;
+    color: white;
+    border-width: 1px;
+    border-radius: 11px;
+    transition: 0.7s;
+    background-clip: text;
+}
+
+.btn-secondary:hover, .btn-primary {
+    background-color: white;
+    font-weight: 200;
+    color: black;
+    
+}
+
+
+.register {
+    margin: 50px auto;
+    width: 45vw;
+    background-color: #7474747b;
+    /* position: absolute;
+    top: 20%;
+    left: 50%; 
+    transform: translate(-50%, -20%); */
+    padding: 50px;
+    border-radius: 15px;
+}
+
+    .error {
+        visibility: hidden;
+        transition: 0.3s;
+        font-family: "Raleway";
+        color: white;
+    }
+
+    #togglePassword, #toggleConfPassword {
+    margin-left: -30px; 
+    cursor: pointer;
+
+    }
+
+
+    h1 {
+        color: white;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 48px;
+
+    }
+
+    label {
+        font-size: 18px;
+        font-family: 'Raleway';
+        padding: 35px 0px 10px 0px;
+        display: block;
+
+    }
+
+    input[type=text], input[type=email], input[type=password] {
+        width: 70%;
+        height: 45px;
+        outline: gold;
+        border: rgb(255, 217, 0); 
+        background: rgba(133, 132, 122, 0.635);
+        color: white;
+        border-radius: 15px;
+        padding-left: 20px;
+        transition: 0.3s;
+        font-family: "Raleway";
+    }
+
+    input:focus {
+        background: white;
+        color: black;
+        border-radius: 0px;
+    }
+
+    .button {
+        margin: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    }
+
+    input[type=submit] {
+        background: rgba(69, 69, 69, 0.249);
+        box-shadow: inset -3px -3px 7px black;
+        color: gold;
+        width: 130px;
+        height: 45px;
+        border-radius: 10px;
+        
+    }
